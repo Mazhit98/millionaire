@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/bg2">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Звонок другу"
+            android:id="@+id/call"
+            android:background="@drawable/zvonokon"
+            android:textColor="@android:color/white"
+            android:textSize="10dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/fifty"
+            android:background="@drawable/podson"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/zal"
+            android:background="@drawable/zalon"
+            android:text="Зал"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/get_money"
+            android:background="@drawable/dengion"
+            android:textColor="#aef532"
+            android:layout_marginLeft="20dp"
+            android:text="Забрать деньги"
+            android:textSize="10dp"
+            android:layout_gravity="right"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="70dp"
+            android:text="100 $"
+            android:id="@+id/money"
+            android:textColor="#f5e707"
+            android:background="@android:drawable/sym_action_chat"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="60"
+            android:id="@+id/time_left"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#f56617"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Question Question Question Question Question Question"
+        android:id="@+id/q"
+        android:background="@drawable/vopr"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:textColor="@android:color/white"/>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Variant 1"
+                android:id="@+id/var1"
+                android:textColor="@android:color/white"
+                android:background="@drawable/but3"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Variant 2"
+                android:id="@+id/var2"
+                android:textColor="@android:color/white"
+                android:background="@drawable/but3"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableRow"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Variant 3"
+                android:id="@+id/var3"
+                android:textColor="@android:color/white"
+                android:background="@drawable/but3"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Variant 4"
+                android:id="@+id/var4"
+                android:textColor="@android:color/white"
+                android:background="@drawable/but3"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
+
