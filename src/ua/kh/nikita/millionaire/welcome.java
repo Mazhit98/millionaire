@@ -21,6 +21,7 @@ public class welcome extends Activity {
                 // start new game
                 Intent intent = new Intent(welcome.this, game.class);
                 startActivity(intent);
+                finish();
             }
         });
 
