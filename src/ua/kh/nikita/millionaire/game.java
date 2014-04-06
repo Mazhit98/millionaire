@@ -371,10 +371,10 @@ public class game extends Activity {
         }
         Intent intent = new Intent(this, over.class);
         intent.putExtra("money", money);
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
 
         finish();
+        System.exit(0);
     }
 
     private int randomInteger(int aStart, int aEnd) {

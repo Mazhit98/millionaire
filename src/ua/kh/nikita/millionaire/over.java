@@ -34,6 +34,7 @@ public class over extends Activity {
         exit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 over.this.finish();
+                System.exit(0);
             }
         });
 
@@ -42,6 +43,7 @@ public class over extends Activity {
                 Intent intent = new Intent(over.this, game.class);
                 startActivity(intent);
                 over.this.finish();
+                System.exit(0);
             }
         });
     }
